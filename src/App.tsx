@@ -31,13 +31,15 @@ const itemsData: MenuProps['items'] = [
               menu: [
                 {
                   key: '1',
-                  content: 'MenuItem-1.2.1.1'
+                  content: 'MenuItem-1.2.1.1',
+                  on: 'hover',
                 }
               ]
             },
             {
               key: '2',
               content: 'MenuItem-1.2.2',
+              on: 'hover',
             },
           ],
         },
@@ -49,6 +51,7 @@ const itemsData: MenuProps['items'] = [
             {
               key: '1',
               content: 'MenuItem-1.3.1',
+              on: 'hover',
             },
             {
               key: '2',
@@ -57,13 +60,15 @@ const itemsData: MenuProps['items'] = [
               menu: [
                 {
                   key: '1',
-                  content: 'MenuItem-1.3.2.1'
+                  content: 'MenuItem-1.3.2.1',
+                  on: 'hover',
                 }
               ]
             },
             {
               key: '3',
               content: 'MenuItem-1.3.3',
+              on: 'hover',
             },
           ],
         },
@@ -89,22 +94,26 @@ const itemsData: MenuProps['items'] = [
                 {
                   key: '1',
                   content: 'MenuItem-2.1.1.1',
+                  on: 'hover',
                 },
                 {
                   key: '2',
                   content: 'MenuItem-2.1.1.2',
+                  on: 'hover',
                 }
               ]
             },
             {
               key: '2',
               content: 'MenuItem-2.1.2',
+              on: 'hover',
             }
           ]
         },
         {
           key: '2',
           content: 'MenuItem-2.2',
+          on: 'hover',
         },
         {
           key: '3',
@@ -114,10 +123,12 @@ const itemsData: MenuProps['items'] = [
             {
               key: '1',
               content: 'MenuItem-2.3.1',
+              on: 'hover',
             },
             {
               key: '2',
               content: 'MenuItem-2.3.2',
+              on: 'hover',
             }
           ]
         }

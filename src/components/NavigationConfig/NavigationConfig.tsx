@@ -53,7 +53,7 @@ const NavigationConfig: React.FC<NavigationConfigProps> = ({ menuItems }) => {
         if (dropdownVal && newMenuItem && menuItems) {
             const newSubMenu = { key: newMenuItem, content: newMenuItem, on: 'hover' };
             addSubMenu(dropdownVal, newSubMenu, menuItems);
-            localStorage.setItem('itemsData',JSON.stringify(menuItems));
+            localStorage.setItem('itemsData', JSON.stringify(menuItems));
             const updatedContentValues = menuItemsList.concat(newMenuItem);
             setMenuItemsList(updatedContentValues);
 

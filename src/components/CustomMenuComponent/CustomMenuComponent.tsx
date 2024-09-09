@@ -17,15 +17,15 @@ const MenuItem = ({ item }: { item: any }) => {
         <div style={{ paddingLeft: '10px' }}>
             <div
                 onClick={toggleMenu}
-                style={{ cursor: item?.menu?.items?.length > 0 || item?.menu?.length > 0 ? 'pointer' : 'default', fontWeight: item?.menu?.items?.length > 0 || item?.menu?.length > 0 ? 'bold' : 'normal' }}
+                style={{ display: 'flex', gap: '5px', alignItems: 'center', cursor: item?.menu?.items?.length > 0 || item?.menu?.length > 0 ? 'pointer' : 'default', fontWeight: item?.menu?.items?.length > 0 || item?.menu?.length > 0 ? 'bold' : 'normal' }}
             >
                 {
                     (item?.menu?.items?.length > 0 || item?.menu?.length > 0) &&
                     <span
                         style={{
                             display: 'inline-block',
-                            width: '10px',
-                            height: '10px',
+                            width: '7px',
+                            height: '7px',
                             borderRight: '2px solid black',
                             borderBottom: '2px solid black',
                             transform: isOpen ? 'rotate(45deg)' : 'rotate(-45deg)',
@@ -52,7 +52,7 @@ const MenuItem = ({ item }: { item: any }) => {
 
 const CustomMenuComponent: React.FC<CustomMenuComponentProps> = ({ menuData }) => {
     return (
-        <div style={{ width: '200px', fontFamily: 'Arial, sans-serif', border: '1px solid #ccc', padding: '10px' }}>
+        <div style={{ width: '200px', fontFamily: 'Arial, sans-serif', padding: '10px' }}>
             {menuData?.map((item: any) => (
                 <MenuItem key={item?.key} item={item} />
             ))}
