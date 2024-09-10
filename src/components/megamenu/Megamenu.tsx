@@ -7,7 +7,7 @@ interface MegamenuProps {
 const Megamenu: React.FC<MegamenuProps> = ({ items }) => {
     return (
         <>
-            <Menu defaultActiveIndex={0} items={items} />
+            <Menu defaultActiveIndex={0} items={items} styles={{ border: "none", borderRadius: "0" }} />
         </>
     )
 }

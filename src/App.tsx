@@ -11,64 +11,64 @@ const itemsData: MenuProps['items'] = [
   {
     key: 'MenuItem-1',
     content: 'MenuItem-1',
-    on: 'hover',
+    
     menu: {
       items: [
         {
           key: '1',
-          on: 'hover',
+          
           content: 'MenuItem-1.1',
         },
         {
           key: '2',
-          on: 'hover',
+          
           content: 'MenuItem-1.2',
           menu: [
             {
               key: '1',
               content: 'MenuItem-1.2.1',
-              on: 'hover',
+              
               menu: [
                 {
                   key: '1',
                   content: 'MenuItem-1.2.1.1',
-                  on: 'hover',
+                  
                 }
               ]
             },
             {
               key: '2',
               content: 'MenuItem-1.2.2',
-              on: 'hover',
+              
             },
           ],
         },
         {
           key: '3',
-          on: 'hover',
+          
           content: 'MenuItem-1.3',
           menu: [
             {
               key: '1',
               content: 'MenuItem-1.3.1',
-              on: 'hover',
+              
             },
             {
               key: '2',
               content: 'MenuItem-1.3.2',
-              on: 'hover',
+              
               menu: [
                 {
                   key: '1',
                   content: 'MenuItem-1.3.2.1',
-                  on: 'hover',
+                  
                 }
               ]
             },
             {
               key: '3',
               content: 'MenuItem-1.3.3',
-              on: 'hover',
+              
             },
           ],
         },
@@ -78,57 +78,57 @@ const itemsData: MenuProps['items'] = [
   {
     key: 'MenuItem-2',
     content: 'MenuItem-2',
-    on: 'hover',
+    
     menu: {
       items: [
         {
           key: '1',
-          on: 'hover',
+          
           content: 'MenuItem-2.1',
           menu: [
             {
               key: '1',
               content: 'MenuItem-2.1.1',
-              on: 'hover',
+              
               menu: [
                 {
                   key: '1',
                   content: 'MenuItem-2.1.1.1',
-                  on: 'hover',
+                  
                 },
                 {
                   key: '2',
                   content: 'MenuItem-2.1.1.2',
-                  on: 'hover',
+                  
                 }
               ]
             },
             {
               key: '2',
               content: 'MenuItem-2.1.2',
-              on: 'hover',
+              
             }
           ]
         },
         {
           key: '2',
           content: 'MenuItem-2.2',
-          on: 'hover',
+          
         },
         {
           key: '3',
-          on: 'hover',
+          
           content: 'MenuItem-2.3',
           menu: [
             {
               key: '1',
               content: 'MenuItem-2.3.1',
-              on: 'hover',
+              
             },
             {
               key: '2',
               content: 'MenuItem-2.3.2',
-              on: 'hover',
+              
             }
           ]
         }
@@ -137,7 +137,7 @@ const itemsData: MenuProps['items'] = [
   },
   {
     key: 'MenuItem-3',
-    on: 'hover',
+    
     content: 'MenuItem-3',
   },
   {
